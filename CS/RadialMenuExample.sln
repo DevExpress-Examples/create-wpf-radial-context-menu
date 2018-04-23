@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadialMenuExample", "RadialMenuExample\RadialMenuExample.csproj", "{48CE4463-56D3-4F73-A910-121CFCD64FE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48CE4463-56D3-4F73-A910-121CFCD64FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48CE4463-56D3-4F73-A910-121CFCD64FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48CE4463-56D3-4F73-A910-121CFCD64FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48CE4463-56D3-4F73-A910-121CFCD64FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,34 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:RadialMenuExample"
+        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" 
+        xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm"
+        x:Class="RadialMenuExample.MainWindow"
+        Title="MainWindow" Height="350" Width="525"
+        DataContext="{dxmvvm:ViewModelSource Type=local:RadialContextMenuViewModel}">
+    <Grid>
+        <TextBox HorizontalAlignment="Center" VerticalAlignment="Center" Width="250" Text="DevExpress">
+            <dxmvvm:Interaction.Behaviors>
+                <local:TextBoxService />
+            </dxmvvm:Interaction.Behaviors>
+            <dxb:BarManager.DXContextMenu >
+                <dxb:RadialContextMenu DataContext="{Binding PlacementTarget.DataContext, RelativeSource={RelativeSource Self}}">
+                    <dxb:BarButtonItem Content="Copy" Glyph="{dx:DXImage Image=Copy_16x16.png}" Command="{Binding CopyCommand}" CommandTarget="{Binding}" />
+                    <dxb:BarButtonItem Content="Cut" Glyph="{dx:DXImage Image=Cut_16x16.png}" Command="{Binding CutCommand}" CommandTarget="{Binding}" />
+                    <dxb:BarButtonItem Content="Paste" Glyph="{dx:DXImage Image=Paste_16x16.png}" Command="{x:Static ApplicationCommands.Paste}" CommandTarget="{Binding}" />
+                    <dxb:BarSplitButtonItem Content="Select All" Glyph="{dx:DXImage Image=SelectAll_16x16.png}" LargeGlyph="{dx:DXImage Image=SelectAll_32x32.png}" Command="{Binding SelectAllCommand}" >
+                        <dxb:BarSplitButtonItem.PopupControl>
+                            <dxb:PopupMenu>
+                                <dxb:BarButtonItem x:Name="bClear" CategoryName="Edit" Content="Clear" Glyph="{dx:DXImage Image=Delete_16x16.png}" Command="{Binding ClearSelectionCommand}" />
+                                <dxb:BarButtonItem Content="Select All" Glyph="{dx:DXImage Image=SelectAll_16x16.png}" LargeGlyph="{dx:DXImage Image=SelectAll_32x32.png}" Command="{Binding SelectAllCommand}" />
+                            </dxb:PopupMenu>
+                        </dxb:BarSplitButtonItem.PopupControl>
+                    </dxb:BarSplitButtonItem>
+                </dxb:RadialContextMenu>
+            </dxb:BarManager.DXContextMenu>
+        </TextBox>
+
+    </Grid>
+</Window>
