@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [MainWindow.xaml](./CS/RadialMenuExample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/RadialMenuExample/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/RadialMenuExample/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/RadialMenuExample/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/RadialMenuExample/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/RadialMenuExample/MainWindow.xaml.vb))
 * [TextBoxService.cs](./CS/RadialMenuExample/TextBoxService.cs) (VB: [TextBoxService.vb](./VB/RadialMenuExample/TextBoxService.vb))
 * [ViewModel.cs](./CS/RadialMenuExample/ViewModel.cs) (VB: [ViewModel.vb](./VB/RadialMenuExample/ViewModel.vb))
 <!-- default file list end -->
