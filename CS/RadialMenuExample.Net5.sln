@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadialMenuExample", "RadialMenuExample\RadialMenuExample.csproj", "{48CE4463-56D3-4F73-A910-121CFCD64FE0}"
+# Visual Studio 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadialMenuExample", "RadialMenuExample\RadialMenuExample.Net5.csproj", "{48CE4463-56D3-4F73-A910-121CFCD64FE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
