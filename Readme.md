@@ -32,7 +32,7 @@ Use the [BarManager.DXContextMenu](https://docs.devexpress.com/WPF/DevExpress.Xp
 * [TextBoxService.cs](./CS/RadialMenuExample/TextBoxService.cs) (VB: [TextBoxService.vb](./VB/RadialMenuExample/TextBoxService.vb))
 * [ViewModel.cs](./CS/RadialMenuExample/ViewModel.cs) (VB: [ViewModel.vb](./VB/RadialMenuExample/ViewModel.vb))
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=create-wpf-radial-context-menu&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=create-wpf-radial-context-menu&~~~was_helpful=no)
 
